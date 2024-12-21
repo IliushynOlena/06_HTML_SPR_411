@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        .custom-ul-style{
+            list-style-type: square;
+            list-style-position: inside;
+            /* padding: 0; */
+           list-style-image: url(./markers/leaf.png);
+        }
+        ol{
+            list-style-type: upper-roman;
+        }
+        ol li{
+            color: red;
+        }
+        ol li::marker{
+            color: rgb(255, 200, 0);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Include lists</h2>
+    <ol>
+        <li>Lorem ipsum dolor sit amet consectetur 
+            adipisicing.
+            <ul>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Praesentium corporis vel nulla.</li>
+                <li>Asperiores blanditiis assumenda similique!</li>
+                <li>Recusandae cumque dicta asperiores?</li>
+                <li>Totam aliquid magni sequi?</li>
+            </ul></li>
+            
+        <li>Voluptate corporis a quidem blanditiis quia rem.</li>
+        <li>Sint dolorum magni perspiciatis aut reprehenderit officiis.</li>
+        <li>Architecto cupiditate nihil commodi nobis illo harum.</li>
+        <li>Doloribus necessitatibus corporis, eaque animi assumenda ab?</li>
+    </ol>
+
+
+    <h2>Unordered List</h2>
+     <!-- ul>li*7>lorem12 -->
+    <ul class="custom-ul-style">
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit ipsum totam.</li>
+        <li>Veritatis quo quia obcaecati vero fugiat pariatur rerum, debitis temporibus magnam sequi.</li>
+        <li>Aliquam eveniet placeat asperiores magni distinctio rem quidem nisi necessitatibus molestiae nam.</li>
+        <li>Nihil autem consequatur iure distinctio culpa maxime assumenda veritatis. Inventore, architecto magnam.</li>
+        <li>Hic, consequuntur temporibus! Voluptatem rerum natus quidem ullam quaerat sed quia? Corporis!</li>
+        <li>Corporis obcaecati distinctio voluptates quae minus quia perferendis architecto reprehenderit nulla ducimus?</li>
+        <li>Quisquam non ad, consequatur maxime commodi culpa dolorum perspiciatis necessitatibus esse voluptates.</li>
+    </ul>
+    <h2>Ordered list</h2>
+    <!-- ol>li*5>lorem7 -->
+    <ol start="10" reversed>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        <li>Ex cumque animi alias, deserunt dolorem harum?</li>
+        <li>Ipsam sequi, quisquam magni quibusdam dicta facere.</li>
+        <li value="30">Ipsa odit provident, vero et ut expedita.</li>
+        <li>Ipsam minus aut cum, molestiae ut dolore.</li>
+        <li>Ipsam minus aut cum, molestiae ut dolore.</li>
+        <li>Ipsam minus aut cum, molestiae ut dolore.</li>
+        <li>Ipsam minus aut cum, molestiae ut dolore.</li>
+    </ol>
+    <h2>Definition list</h2>
+    <dl>
+        <!-- definition title -->
+        <dt>HTML</dt>
+        <!-- definition description -->
+        <dd>Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Exercitationem molestiae modi vero.</dd>
+        <dt>CSS</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, explicabo natus. Nostrum.</dd>
+        </dl>
+</body>
+</html>
