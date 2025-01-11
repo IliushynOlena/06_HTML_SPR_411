@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+            border-spacing: 10px;
+            background-color: #aaaaaa;
+            background-image: url(./07_TableImg/bg_1.jpg);
+            empty-cells: hide;
+        }
+        tr{
+            background-color: #cccccc;
+            background-image: url(./07_TableImg/bg_2.jpg);
+        }
+        th{
+            border: 1px solid red;
+        }
+        td{
+            border: 1px solid blue;
+        }
+        #uniq{
+            width: 30vw;
+            height: 20vh;
+            text-align: right;
+            vertical-align: bottom;
+            background-color: #eeeeee;
+            background-image: url(./07_TableImg/bg_3.jpg);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- tr - table row  -->
+        <!-- th - table head  -->
+        <!-- td - table data  -->
+        <!-- th*4{Column 1}  -->
+        <tr>
+            <th>Columl 1</th>
+            <th>Columl 2</th>
+            <th>Columl 3</th>
+            <th>Columl 4</th>
+        </tr>
+         <!-- th*4{Column 1}  -->
+          <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Ipsam, molestiae?</td>
+            <td>Iure, inventore.</td>
+            <td>Aspernatur, consequuntur?</td>
+          </tr>
+          <!-- tr*5>td*4>lorem2 -->
+          <tr>
+            <td>Lorem, ipsum.</td>
+            <td id="uniq">Minus</td>
+            <td>Quia, iusto!</td>
+            <td>Mollitia, aperiam?</td>
+          </tr>
+          <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Nesciunt, ut?</td>
+            <td>Inventore, ad!</td>
+            <td>Distinctio, mollitia?</td>
+          </tr>
+          <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Enim, impedit.</td>
+            <td>Est, debitis!</td>
+            <td>Voluptate, cupiditate.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ratione, fugit!</td>
+            <td>Quis, accusamus?</td>
+            <td></td>
+          </tr>
+    </table>
+
+    
+</body>
+</html>
