@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+            color: white;
+        }
+        caption{
+            text-align: right;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #717171;
+        }
+        .col-1{
+            background-color: #e5e3e3;                 
+        }
+        .col-2{
+            background-color: rgb(111, 227, 237);
+        }
+        .col-3{
+            background-color: #34ba38;
+        }
+        .col-4{
+            background-color: #f3e738;
+        }
+        
+        .col-5{
+            background-color: #c93620;
+        }
+        thead, tfoot{
+            text-align: center;
+            text-transform: uppercase;
+        }
+       
+        th,td{
+            padding: 18px 16px;
+        }
+        thead{
+            border-bottom: 2px solid white;
+        }
+        tfoot{
+            border-top: 2px solid white;
+        }
+        td:first-child{
+            text-align: left;
+        }
+        th:first-child, td:first-child{
+            color: #717171;
+        }
+        td span{
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <!-- <h2>Block elements</h2>
+    <h3>Block elements</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div>Lorem ipsum dolor sit amet.</div>
+    <blockquote>kgdfklhdfkh</blockquote>
+    <h2>Inline</h2>
+    <span>Lorem, ipsum.</span>
+    <i>Lorem, ipsum dolor.</i>
+    <b>Lorem, ipsum.</b>
+    <mark>Lorem, ipsum dolor.</mark> -->
+
+    <table>
+        <caption>TITLE TABLE</caption>
+        <colgroup>
+            <col class="col-1">
+            <col class="col-2">
+            <col class="col-3">
+            <col class="col-4">
+            <col class="col-5">         
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Spetifacation</th>
+                <th>Free</th> 
+                <th>Basic</th>
+                <th>Standart</th>
+                <th>PREMIUM</th>
+            </tr>    
+        </thead>
+        <tfoot>
+            <tr>
+               <th>PRISE</th>
+               <th>$ 0.00</th>
+               <th>$ 9.99</th>
+               <th>$ 19.99</th>
+               <th>$ 29.99</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Lorem ipsum dolor</td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+            </tr>
+            <tr>
+                <td>Ratione deserunt modi</td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+            </tr>
+            <tr>
+                <td>Vel maiores odio</td>
+                <td><span>-</span></td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+            </tr>
+            <tr>
+                <td>Minus vel aperiam natus</td>
+                <td><span>-</span></td>
+                <td><span>-</span></td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+            </tr>
+            <tr>
+                <td>Provid minima sapiente</td>
+                <td><span>-</span></td>
+                <td><span>-</span></td>
+                <td><span>-</span></td>
+                <td><span>+</span></td>
+            </tr>
+            <tr>
+                <td>Eveniet eaque excepturi</td>
+                <td><span>-</span></td>
+                <td><span>-</span></td>
+                <td><span>-</span></td>
+                <td><span>+</span></td>
+            </tr>
+        </tbody>
+    </thead>
+    </table>
+</body>
+</html>
